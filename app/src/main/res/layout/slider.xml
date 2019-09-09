@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/goMain"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/close"
+        android:layout_gravity="right|top"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp"
+        android:onClick="goMainActivity"
+        />
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="22dp"
+        android:layout_marginRight="27dp"
+        android:id="@+id/btn_1"
+        android:onClick="goPage"
+        android:background="#00000000"/>
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="22dp"
+        android:id="@+id/btn_2"
+        android:onClick="goPage"
+        android:background="#00000000"/>
+
+    <Button
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="27dp"
+        android:id="@+id/btn_3"
+        android:onClick="goPage"
+        android:background="#00000000"/>
+
+
+</FrameLayout>
